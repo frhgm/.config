@@ -1,0 +1,9 @@
+
+
+window:
+  padding:
+    x: 5
+    y: 10
+
+colors:
+   background_opacity: 0.5	

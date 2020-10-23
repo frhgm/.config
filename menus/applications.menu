@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Applications</Name>
+	<DefaultAppDirs />
+	<DefaultDirectoryDirs />
+	<DefaultMergeDirs />
+	<Menu>
+		<Name>Accessories</Name>
+		<Directory>Utility.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>byobu.desktop</Filename>
+			<Filename>org.xfce.Catfish.desktop</Filename>
+			<Filename>gucharmap.desktop</Filename>
+			<Filename>simple-scan.desktop</Filename>
+			<Filename>engrampa.desktop</Filename>
+			<Filename>org.gnome.font-viewer.desktop</Filename>
+			<Filename>mate-calc.desktop</Filename>
+			<Filename>nvim.desktop</Filename>
+			<Filename>apport-gtk.desktop</Filename>
+			<Filename>info.desktop</Filename>
+			<Filename>org.gnome.gedit.desktop</Filename>
+			<Filename>vim.desktop</Filename>
+			<Filename>compton.desktop</Filename>
+			<Filename>nitrogen.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Education</Name>
+		<Directory>Education.directory</Directory>
+		<DirectoryDir>/home/frhgm/.local/share/desktop-directories</DirectoryDir>
+		<Layout>
+			<Merge type="menus" />
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Games</Name>
+		<Directory>Game.directory</Directory>
+		<DirectoryDir>/home/frhgm/.local/share/desktop-directories</DirectoryDir>
+		<Menu>
+			<Name>Actiongames</Name>
+			<Directory>ActionGames.directory</Directory>
+			<Layout>
+				<Merge type="menus" />
+				<Merge type="files" />
+			</Layout>
+		</Menu>
+		<Menu>
+			<Name>Adventuregames</Name>
+			<Directory>AdventureGames.directory</Directory>
+			<Layout>
+				<Merge type="menus" />
+				<Merge type="files" />
+			</Layout>
+		</Menu>
+		<Menu>
+			<Name>Arcadegames</Name>
+			<Directory>ArcadeGames.directory</Directory>
+			<Layout>
+				<Merge type="menus" />
+				<Merge type="files" />
+			</Layout>
+		</Menu>
+		<Menu>
+			<Name>Boardgames</Name>
+			<Directory>BoardGames.directory</Directory>
+			<Layout>
+				<Merge type="menus" />
+				<Merge type="files" />
+			</Layout>
+		</Menu>
+		<Menu>
+			<Name>Cardgames</Name>
+			<Directory>CardGames.directory</Directory>
+			<Layout>
+				<Merge type="menus" />
+				<Merge type="files" />
+			</Layout>
+		</Menu>
+		<Menu>
+			<Name>Blocksgames</Name>
+			<Directory>BlocksGames.directory</Directory>
+			<Layout>
+				<Merge type="menus" />
+				<Merge type="files" />
+			</Layout>
+		</Menu>
+		<Menu>
+			<Name>Kidsgames</Name>
+			<Directory>KidsGames.directory</Directory>
+			<Layout>
+				<Merge type="menus" />
+				<Merge type="files" />
+			</Layout>
+		</Menu>
+		<Menu>
+			<Name>Logicgames</Name>
+			<Directory>LogicGames.directory</Directory>
+			<Layout>
+				<Merge type="menus" />
+				<Filename>sgt-blackbox.desktop</Filename>
+				<Filename>sgt-bridges.desktop</Filename>
+				<Filename>sgt-cube.desktop</Filename>
+				<Filename>sgt-dominosa.desktop</Filename>
+				<Filename>sgt-fifteen.desktop</Filename>
+				<Filename>sgt-filling.desktop</Filename>
+				<Filename>sgt-flip.desktop</Filename>
+				<Filename>sgt-flood.desktop</Filename>
+				<Filename>sgt-galaxies.desktop</Filename>
+				<Filename>sgt-guess.desktop</Filename>
+				<Filename>sgt-inertia.desktop</Filename>
+				<Filename>sgt-keen.desktop</Filename>
+				<Filename>sgt-lightup.desktop</Filename>
+				<Filename>sgt-loopy.desktop</Filename>
+				<Filename>sgt-magnets.desktop</Filename>
+				<Filename>sgt-map.desktop</Filename>
+				<Filename>sgt-mines.desktop</Filename>
+				<Filename>org.gnome.Mines.desktop</Filename>
+				<Filename>sgt-net.desktop</Filename>
+				<Filename>sgt-netslide.desktop</Filename>
+				<Filename>sgt-palisade.desktop</Filename>
+				<Filename>sgt-pattern.desktop</Filename>
+				<Filename>sgt-pearl.desktop</Filename>
+				<Filename>sgt-pegs.desktop</Filename>
+				<Filename>sgt-range.desktop</Filename>
+				<Filename>sgt-rect.desktop</Filename>
+				<Filename>org.bluesabre.SgtLauncher.desktop</Filename>
+				<Filename>sgt-samegame.desktop</Filename>
+				<Filename>sgt-signpost.desktop</Filename>
+				<Filename>sgt-singles.desktop</Filename>
+				<Filename>sgt-sixteen.desktop</Filename>
+				<Filename>sgt-slant.desktop</Filename>
+				<Filename>sgt-solo.desktop</Filename>
+				<Filename>org.gnome.Sudoku.desktop</Filename>
+				<Filename>sgt-tents.desktop</Filename>
+				<Filename>sgt-towers.desktop</Filename>
+				<Filename>sgt-tracks.desktop</Filename>
+				<Filename>sgt-twiddle.desktop</Filename>
+				<Filename>sgt-undead.desktop</Filename>
+				<Filename>sgt-unequal.desktop</Filename>
+				<Filename>sgt-unruly.desktop</Filename>
+				<Filename>sgt-untangle.desktop</Filename>
+				<Merge type="files" />
+			</Layout>
+		</Menu>
+		<Menu>
+			<Name>Roleplayinggames</Name>
+			<Directory>RolePlayingGames.directory</Directory>
+			<Layout>
+				<Merge type="menus" />
+				<Merge type="files" />
+			</Layout>
+		</Menu>
+		<Menu>
+			<Name>Simulationgames</Name>
+			<Directory>SimulationGames.directory</Directory>
+			<Layout>
+				<Merge type="menus" />
+				<Merge type="files" />
+			</Layout>
+		</Menu>
+		<Menu>
+			<Name>Sportsgames</Name>
+			<Directory>SportsGames.directory</Directory>
+			<Layout>
+				<Merge type="menus" />
+				<Merge type="files" />
+			</Layout>
+		</Menu>
+		<Menu>
+			<Name>Strategygames</Name>
+			<Directory>StrategyGames.directory</Directory>
+			<Layout>
+				<Merge type="menus" />
+				<Merge type="files" />
+			</Layout>
+		</Menu>
+		<Layout>
+			<Merge type="menus" />
+			<Menuname>Actiongames</Menuname>
+			<Menuname>Adventuregames</Menuname>
+			<Menuname>Arcadegames</Menuname>
+			<Menuname>Boardgames</Menuname>
+			<Menuname>Cardgames</Menuname>
+			<Menuname>Blocksgames</Menuname>
+			<Menuname>Kidsgames</Menuname>
+			<Menuname>Logicgames</Menuname>
+			<Menuname>Roleplayinggames</Menuname>
+			<Menuname>Simulationgames</Menuname>
+			<Menuname>Sportsgames</Menuname>
+			<Menuname>Strategygames</Menuname>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Graphics</Name>
+		<Directory>Graphics.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>feh.desktop</Filename>
+			<Filename>gimp.desktop</Filename>
+			<Filename>libreoffice-draw.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Internet</Name>
+		<Directory>Network.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>firefox.desktop</Filename>
+			<Filename>pidgin.desktop</Filename>
+			<Filename>thunderbird.desktop</Filename>
+			<Filename>transmission-gtk.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Office</Name>
+		<Directory>Office.directory</Directory>
+		<DirectoryDir>/home/frhgm/.local/share/desktop-directories</DirectoryDir>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>atril.desktop</Filename>
+			<Filename>libreoffice-startcenter.desktop</Filename>
+			<Filename>libreoffice-calc.desktop</Filename>
+			<Filename>libreoffice-draw.desktop</Filename>
+			<Filename>libreoffice-impress.desktop</Filename>
+			<Filename>libreoffice-math.desktop</Filename>
+			<Filename>libreoffice-writer.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Other</Name>
+		<Directory>X-GNOME-Other.directory</Directory>
+		<Include>
+			<Filename>gcr-prompter.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>org.freedesktop.IBus.Panel.Emojier.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>org.freedesktop.IBus.Panel.Extension.Gtk3.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>geoclue-demo-agent.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>snap-handle-link.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>libreoffice-xsltfilter.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>mutter.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>nm-applet.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>rygel.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>gcr-viewer.desktop</Filename>
+		</Include>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>gcr-prompter.desktop</Filename>
+			<Filename>org.freedesktop.IBus.Panel.Emojier.desktop</Filename>
+			<Filename>org.freedesktop.IBus.Panel.Extension.Gtk3.desktop</Filename>
+			<Filename>geoclue-demo-agent.desktop</Filename>
+			<Filename>snap-handle-link.desktop</Filename>
+			<Filename>libreoffice-xsltfilter.desktop</Filename>
+			<Filename>mutter.desktop</Filename>
+			<Filename>nm-applet.desktop</Filename>
+			<Filename>rygel.desktop</Filename>
+			<Filename>gcr-viewer.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Development</Name>
+		<Directory>Development.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>python2.7.desktop</Filename>
+			<Filename>python3.8.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Gnomescience</Name>
+		<Directory>GnomeScience.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>libreoffice-math.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Audiovideo</Name>
+		<Directory>AudioVideo.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>pavucontrol.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Systemsettings</Name>
+		<Directory>X-GNOME-SystemSettings.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>mugshot.desktop</Filename>
+			<Filename>gnome-language-selector.desktop</Filename>
+			<Filename>system-config-printer.desktop</Filename>
+			<Filename>software-properties-gtk.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>System</Name>
+		<Directory>System-Tools.directory</Directory>
+		<Menu>
+			<Name>Administration</Name>
+			<Directory>Settings-System.directory</Directory>
+			<Layout>
+				<Merge type="menus" />
+				<Filename>lightdm-gtk-greeter-settings.desktop</Filename>
+				<Filename>shares.desktop</Filename>
+				<Filename>update-manager.desktop</Filename>
+				<Filename>time.desktop</Filename>
+				<Filename>users.desktop</Filename>
+				<Merge type="files" />
+			</Layout>
+		</Menu>
+		<Menu>
+			<Name>Preferences</Name>
+			<Directory>Settings.directory</Directory>
+			<Layout>
+				<Merge type="menus" />
+				<Filename>software-properties-drivers.desktop</Filename>
+				<Filename>blueman-manager.desktop</Filename>
+				<Filename>pcmanfm-desktop-pref.desktop</Filename>
+				<Filename>org.freedesktop.IBus.Setup.desktop</Filename>
+				<Filename>onboard-settings.desktop</Filename>
+				<Merge type="files" />
+			</Layout>
+		</Menu>
+		<Layout>
+			<Merge type="menus" />
+			<Menuname>Administration</Menuname>
+			<Menuname>Preferences</Menuname>
+			<Filename>Alacritty.desktop</Filename>
+			<Filename>apturl.desktop</Filename>
+			<Filename>pcmanfm.desktop</Filename>
+			<Filename>gigolo.desktop</Filename>
+			<Filename>htop.desktop</Filename>
+			<Filename>hplj1020.desktop</Filename>
+			<Filename>org.gnome.Software.desktop</Filename>
+			<Filename>gnome-software-local-file.desktop</Filename>
+			<Filename>gnome-system-monitor.desktop</Filename>
+			<Filename>debian-uxterm.desktop</Filename>
+			<Filename>debian-xterm.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Universal Access</Name>
+		<Directory>Utility-Accessibility.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>onboard.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Utilities</Name>
+		<Directory>X-GNOME-Utilities.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>nm-connection-editor.desktop</Filename>
+			<Filename>gucharmap.desktop</Filename>
+			<Filename>simple-scan.desktop</Filename>
+			<Filename>org.gnome.font-viewer.desktop</Filename>
+			<Filename>gnome-system-monitor.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Webapplications</Name>
+		<Directory>X-GNOME-WebApplications.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Layout>
+		<Menuname>Accessories</Menuname>
+		<Menuname>Education</Menuname>
+		<Menuname>Games</Menuname>
+		<Menuname>Graphics</Menuname>
+		<Menuname>Internet</Menuname>
+		<Menuname>Office</Menuname>
+		<Menuname>Other</Menuname>
+		<Menuname>Development</Menuname>
+		<Menuname>Gnomescience</Menuname>
+		<Menuname>Audiovideo</Menuname>
+		<Menuname>Systemsettings</Menuname>
+		<Menuname>System</Menuname>
+		<Menuname>Universal Access</Menuname>
+		<Menuname>Utilities</Menuname>
+		<Menuname>Webapplications</Menuname>
+		<Separator />
+		<Filename>org.gnome.Software.desktop</Filename>
+	</Layout>
+</Menu>

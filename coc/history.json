@@ -1,0 +1,11 @@
+{
+  "marketplace": {
+    "%2Fhome%2Ffrhgm%2F": {
+      "config%2Fnvim": [
+        "coc-sq",
+        "csharp",
+        "c#"
+      ]
+    }
+  }
+}
